@@ -1,0 +1,14 @@
+{
+  "mcpServers": {
+    "smart_search": {
+      "type": "stdio",
+      "command": "node",
+      "args": ["./smart-search-mcp-server.js"],
+      "env": {
+        "NODE_ENV": "production",
+        "PLAYWRIGHT_BROWSERS_PATH": "./browsers",
+        "CONTEXT_THRESHOLD": "0.3"
+      }
+    }
+  }
+}
